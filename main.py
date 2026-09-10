@@ -1,7 +1,3 @@
-Non-OTC Market 5-Minute Trading Signal Bot
-Powered by Twelve Data API with Strict 80% Technical Score Threshold
-"""
-
 import sys
 import logging
 import asyncio
@@ -9,7 +5,7 @@ import config
 
 TELEGRAM_BOT_TOKEN = config.TELEGRAM_BOT_TOKEN
 TWELVE_DATA_API_KEY = config.TWELVE_DATA_API_KEY
-from pair_mapping import get_all_live_pairs
+
 from telegram_bot import setup_telegram_bot
 from scheduler import SignalScheduler
 
