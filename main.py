@@ -1,6 +1,4 @@
-"""
-SOBUJ99 SIGNAL BOT - Main Entry Point
-Quotex LIVE / Non-OTC Market 5-Minute Trading Signal Bot
+Non-OTC Market 5-Minute Trading Signal Bot
 Powered by Twelve Data API with Strict 80% Technical Score Threshold
 """
 
